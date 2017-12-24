@@ -1,5 +1,3 @@
-// Programa realizado por Eufrasio Cabrera para controlar un sensor de humedad y temperatura DHT11 y pantalla LCD
-
 #include <DHT11.h>
 #include <Wire.h> 
 #include <LiquidCrystal_I2C.h>
@@ -38,15 +36,12 @@ void loop()
   lcd.print("Temp: ");
   lcd.print(temp,1);//1 decimal
   lcd.print(" C  ");
-
-// escroibe eu en la posicion 15 de la primera linea
-  lcd.setCursor(14,0);
-  lcd.print("eu");
-
+        lcd.setCursor(14,0);
+        lcd.print("eu");
   lcd.setCursor(0,1);
   lcd.print("Humedad: ");
   lcd.print(hum,1); //1 decimal
-  lcd.print(" % ");
+  lcd.print(" %  ");
           }
        else
           {
