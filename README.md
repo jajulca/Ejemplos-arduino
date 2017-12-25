@@ -14,5 +14,7 @@ En los siguientes enlaces se accede a documentos en pdf con los esquemas de mont
 
 [Pulsador y led](/pulsador_led/pulsador%20y%20led_bb.jpg) // [código](/pulsador_led/pulsador_led.ino)
 
+[Código motores edubásica BT](/Motores_edubasica_bluetooth/motores_bluetooth_301017.ino)
+
 
 
